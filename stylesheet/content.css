@@ -41,6 +41,16 @@ margin-left: 130px;
 color: #0F00FF;
 
 }
+.h2_rose{
+width: 954px;
+height: 84px;
+
+font-size: 48px;
+line-height: 60px;
+font-style: bold;
+
+color: #F70A8F;
+}
 .big_emoji_blue {
 width: 1710px;
 height: 119px;
@@ -59,50 +69,9 @@ color: #0F00FF;
 
 transform: matrix(1, 0, 0, -1, 0, 0);
 }
-.emoji_on_the_top {
-width: 359px;
-height: 120px;
-left: 238px;
-top: 745px;
-margin-top: 230px;
-margin-left: 245px;
-
-font-style: normal;
-font-weight: 500;
-font-size: 76px;
-line-height: 80px;
-
-color: #F70A8F;
-
-}
-p
-{
-
-width: 832px;
-height: 132px;
-left: 243px;
-top: 1090px;
-margin-top: 226px;
-margin-left: 245px;
-
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 30px;
-
-color: #0F00FF;
-}
-
-img{
-
-}
 .big_emoji_rose {
 width: 1440px;
 height: 341px;
-margin-left: 170px;
-margin-top: -135px;
-
-
 font-style: normal;
 font-weight: 900;
 font-size: 230px;
@@ -110,3 +79,128 @@ line-height: 164.6%;
 /* or 412px */
 color: #F70A8F;
 }
+.big_emoji_white{
+font-size: 288px;
+line-height: 164.6%;
+color: #FFFFFF;
+}
+.emoji_on_the_top {
+width: 359px;
+height: 120px;
+left: 238px;
+top: 745px;
+margin-top: 230px;
+margin-left: 245px;
+font-style: normal;
+font-weight: 500;
+font-size: 76px;
+line-height: 80px;
+color: #F70A8F;
+
+}
+.p_blue{
+
+width: 832px;
+height: 132px;
+
+margin-top: 226px;
+margin-left: 245px;
+
+font-size: 24px;
+line-height: 30px;
+
+color: #0F00FF;
+}
+.p_white{
+width: 832px;
+height: 217px;
+
+margin-top: 226px;
+margin-left: 245px;
+
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.p_rose{
+  width: 832px;
+  height: 217px;
+
+  margin-top: 226px;
+  margin-left: 245px;
+
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #F70A8F;
+}
+img{
+  margin-left: 170px;
+  margin-top: -135px;
+}
+
+
+.background_rose{
+  width: 1440px;
+  height: 1387px;
+  left: 0px;
+  top: 1793px;
+  background: #F70A8F;
+  color: white;
+}
+.background_blue {
+  width: 1440px;
+height: 3070px;
+left: 0px;
+top: 5659px;
+background: #0F00FF;
+}
+
+.emoji_white_144{
+width: 609px;
+height: 133px;
+font-size: 144px;
+
+color: #FFFFFF;
+}
+.emoji_blue_85{
+width: 1220px;
+height: 151px;
+
+font-weight: 500;
+font-size: 85px;
+line-height: 164.6%;
+
+color: #0F00FF;
+}
+.emoji_rose_96{
+width: 768px;
+height: 121px;
+
+font-weight: 600;
+font-size: 96px;
+line-height: 121px;
+
+color: #F70A8F;
+}
+.comments_blue{
+width: 609px;
+height: 71px;
+
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+color: #0F00FF;
+
+}
+section {
+display: flex;
+jistify-content: space-between;
+padding-top: 80px;
+      }
+section div{
+width: 50%;
+overflow: hidden;
+padding-left: 40px;
