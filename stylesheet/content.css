@@ -24,8 +24,20 @@ body {
       background: url('../images/background.png');
       height: 18932px;
       display: block;
-      opacity: .05;
+      opacity: .3;
       }
+.div_rose {
+  height: 1387px;
+  background-color: #F70A8F;
+  margin-top: -750px;
+}
+.div_blue {
+  width: 1440px;
+  height: 3070px;
+  background-color: #0F00FF;
+
+  margin-top: 710px;
+}
 
 h1 {
 width: 394px;
@@ -48,6 +60,8 @@ height: 84px;
 font-size: 48px;
 line-height: 60px;
 font-style: bold;
+margin-top: 155px;
+margin-left: 680px;
 
 color: #F70A8F;
 }
@@ -76,11 +90,17 @@ font-style: normal;
 font-weight: 900;
 font-size: 230px;
 line-height: 164.6%;
+margin-top: 250px;
 /* or 412px */
 color: #F70A8F;
 }
 .big_emoji_white{
-font-size: 288px;
+font-size: 320px;
+text-align: center;
+
+margin-top: -520px;
+
+
 line-height: 164.6%;
 color: #FFFFFF;
 }
@@ -127,8 +147,8 @@ color: #FFFFFF;
   width: 832px;
   height: 217px;
 
-  margin-top: 226px;
-  margin-left: 245px;
+  margin-top: 120px;
+  margin-left: 240px;
 
   font-size: 24px;
   line-height: 30px;
@@ -148,6 +168,7 @@ img{
   top: 1793px;
   background: #F70A8F;
   color: white;
+  margin-top: -380px;
 }
 .background_blue {
   width: 1440px;
@@ -159,8 +180,8 @@ background: #0F00FF;
 
 .emoji_white_144{
 width: 609px;
-height: 133px;
-font-size: 144px;
+height: auto;
+font-size: 165px;
 
 color: #FFFFFF;
 }
@@ -172,10 +193,13 @@ font-weight: 500;
 font-size: 85px;
 line-height: 164.6%;
 
+margin-top: 80px;
+margin-left: 150px;
+
 color: #0F00FF;
 }
 .emoji_rose_96{
-width: 768px;
+width: auto;
 height: 121px;
 
 font-weight: 600;
@@ -191,11 +215,23 @@ height: 71px;
 font-weight: 500;
 font-size: 24px;
 line-height: 30px;
+text-align: right;
+
+margin-right: 245px;
 
 color: #0F00FF;
 
 }
-section {
+
+.text_white{
+width: 996px;
+font-weight: 500;
+font-size: 36px;
+line-height: 45px;
+
+color: #FFFFFF;
+}
+/* section {
 display: flex;
 jistify-content: space-between;
 padding-top: 80px;
@@ -203,4 +239,4 @@ padding-top: 80px;
 section div{
 width: 50%;
 overflow: hidden;
-padding-left: 40px;
+padding-left: 40px; */
