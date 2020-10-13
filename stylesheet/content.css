@@ -1,26 +1,42 @@
+* {
+  display: block;
+}
 h1, h2, p {
   font-family: Source Code Pro;
 }
-body{
-  position: relative;
-width: 1440px;
-height: auto;
-overflow-y: scroll;
-background: #FFFFFF;
-  /* width: 1440px;
-  height: auto;
-  margin: 0 auto;
-  background: white;
-  display: block;
-  position: relative; */
+html {
+  padding: 0;
+  margin: 0;
 }
+body {
+        width: 1440px;
+        height: 18932px;
+        margin: 0 auto;
+        background: white;
+        /* height: auto; */
+        display:block;
+       position: relative;
+      }
+
+      body::before{
+      content: "";
+      position: absolute;
+      left:0;
+      top: 0;
+      right: 0;
+      background: url('../images/background.png');
+      height: 18932px;
+      display: block;
+      opacity: .2;
+      }
+
 h1 {
-  position: absolute;
 width: 394px;
 height: 124px;
 left: 243px;
 top: 138px;
 
+margin: 243px 803px 138px 138px;
 font-family: Source Code Pro;
 font-style: normal;
 font-weight: 600;
@@ -31,7 +47,6 @@ color: #0F00FF;
 
 }
 .big_emoji_blue {
-  position: absolute;
 width: 1710px;
 height: 119px;
 left: -14px;
@@ -48,7 +63,6 @@ color: #0F00FF;
 transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .emoji_on_the_top {
-  position: absolute;
 width: 359px;
 height: 120px;
 left: 238px;
@@ -65,7 +79,7 @@ color: #F70A8F;
 }
 p
 {
-  position: absolute;
+  /* position: absolute; */
 width: 832px;
 height: 132px;
 left: 243px;
@@ -80,7 +94,6 @@ line-height: 30px;
 color: #0F00FF;
 }
 .arrow {
-  position: absolute;
   width: 58px;
   height: 103px;
   left: 168px;
@@ -95,19 +108,16 @@ color: #0F00FF;
   color: #0F00FF;
 }
 .big_emoji_rose {
-  position: absolute;
-width: 1554px;
+width: 1440px;
 height: 341px;
-left: -6px;
-top: 1379px;
+/* left: -6px; */
+/* top: 1379px; */
 
 font-family: Source Code Pro;
 font-style: normal;
 font-weight: 900;
-font-size: 250px;
+font-size: 230px;
 line-height: 164.6%;
 /* or 412px */
-
-
 color: #F70A8F;
 }
