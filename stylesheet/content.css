@@ -2,12 +2,17 @@ h1, h2, p {
   font-family: Source Code Pro;
 }
 body{
-  width: 1440px;
+  position: relative;
+width: 1440px;
+height: auto;
+overflow-y: scroll;
+background: #FFFFFF;
+  /* width: 1440px;
   height: auto;
   margin: 0 auto;
   background: white;
   display: block;
-  position: relative;
+  position: relative; */
 }
 h1 {
   position: absolute;
@@ -24,4 +29,85 @@ line-height: 45px;
 
 color: #0F00FF;
 
+}
+.big_emoji_blue {
+  position: absolute;
+width: 1710px;
+height: 119px;
+left: -14px;
+top: 519px;
+
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 144px;
+line-height: 181px;
+
+color: #0F00FF;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.emoji_on_the_top {
+  position: absolute;
+width: 359px;
+height: 120px;
+left: 238px;
+top: 745px;
+
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 80px;
+
+color: #F70A8F;
+
+}
+p
+{
+  position: absolute;
+width: 832px;
+height: 132px;
+left: 243px;
+top: 1090px;
+
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #0F00FF;
+}
+.arrow {
+  position: absolute;
+  width: 58px;
+  height: 103px;
+  left: 168px;
+  top: 1041px;
+
+  font-family: Source Code Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 121px;
+
+  color: #0F00FF;
+}
+.big_emoji_rose {
+  position: absolute;
+width: 1554px;
+height: 341px;
+left: -6px;
+top: 1379px;
+
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 900;
+font-size: 250px;
+line-height: 164.6%;
+/* or 412px */
+
+
+color: #F70A8F;
 }
