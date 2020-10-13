@@ -10,7 +10,18 @@ body{
   position: relative;
 }
 h1 {
-  font-size: 80px;
-  margin-top: 70px;
-  margin-bottom: 90px;
+  position: absolute;
+width: 394px;
+height: 124px;
+left: 243px;
+top: 138px;
+
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 45px;
+
+color: #0F00FF;
+
 }
