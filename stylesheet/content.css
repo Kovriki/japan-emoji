@@ -1,9 +1,6 @@
 * {
   display: block;
 }
-h1, h2, p {
-  font-family: Source Code Pro;
-}
 html {
   padding: 0;
   margin: 0;
@@ -13,7 +10,7 @@ body {
         height: 18932px;
         margin: 0 auto;
         background: white;
-        /* height: auto; */
+        font-family: Source Code Pro;
         display:block;
        position: relative;
       }
@@ -27,22 +24,20 @@ body {
       background: url('../images/background.png');
       height: 18932px;
       display: block;
-      opacity: .2;
+      opacity: .05;
       }
 
 h1 {
 width: 394px;
-height: 124px;
-left: 243px;
+/* height: 124px; */
+left: 110px;
 top: 138px;
-
-margin: 243px 803px 138px 138px;
-font-family: Source Code Pro;
+position: relative;
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
 line-height: 45px;
-
+margin-left: 130px;
 color: #0F00FF;
 
 }
@@ -51,8 +46,10 @@ width: 1710px;
 height: 119px;
 left: -14px;
 top: 519px;
+margin-top: 306px;
+margin-left: 70px;
 
-font-family: Source Code Pro;
+
 font-style: normal;
 font-weight: 600;
 font-size: 144px;
@@ -67,11 +64,12 @@ width: 359px;
 height: 120px;
 left: 238px;
 top: 745px;
+margin-top: 230px;
+margin-left: 245px;
 
-font-family: Source Code Pro;
 font-style: normal;
 font-weight: 500;
-font-size: 64px;
+font-size: 76px;
 line-height: 80px;
 
 color: #F70A8F;
@@ -79,13 +77,14 @@ color: #F70A8F;
 }
 p
 {
-  /* position: absolute; */
+
 width: 832px;
 height: 132px;
 left: 243px;
 top: 1090px;
+margin-top: 226px;
+margin-left: 245px;
 
-font-family: Source Code Pro;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -93,27 +92,17 @@ line-height: 30px;
 
 color: #0F00FF;
 }
-.arrow {
-  width: 58px;
-  height: 103px;
-  left: 168px;
-  top: 1041px;
 
-  font-family: Source Code Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 96px;
-  line-height: 121px;
+img{
 
-  color: #0F00FF;
 }
 .big_emoji_rose {
 width: 1440px;
 height: 341px;
-/* left: -6px; */
-/* top: 1379px; */
+margin-left: 170px;
+margin-top: -135px;
 
-font-family: Source Code Pro;
+
 font-style: normal;
 font-weight: 900;
 font-size: 230px;
