@@ -300,9 +300,35 @@ th{
 .little_emoji_rose{
   font-size: 12px;
   color: #F70A8F;
+  padding: 20px;
+
 }
 
+.little_emoji_rose:hover{
+  transform: scale(5);
+  transition-duration: .5s;
+}
 
+.red{
+  weight:300px;
+  height: 100px;
+  background: red;
+}
+.red:hover{
+  display: contents;
+  transform: scale(3);
+  transform: rotate(90deg);
+}
+
+@keyframes trash {
+  0%{
+    rotate: 0deg;
+  }
+  100%{
+    rotate: 30deg;
+
+  }
+}
    /* tr - строка
    td - столбец */
 
