@@ -81,6 +81,13 @@ margin-left: 680px;
 
 color: #0F00FF;
 }
+.h2_white{
+  font-size: 48px;
+  font-style: bold;
+  margin-top: 155px;
+  margin-left: 680px;
+  color: #FFFFFF;
+}
 .big_emoji_blue_1 {
 display: block;
 width: 1710px;
@@ -175,6 +182,11 @@ font-size: 24px;
 line-height: 30px;
 
 color: #FFFFFF;
+}
+.p_white_36px{
+  font-size: 36px;
+  color: #FFFFFF;
+  text-align: center;
 }
 .p_rose{
   display: block;
@@ -349,6 +361,22 @@ th{
     rotate: 30deg;
 
   }
+}
+
+.case_text_blue{
+  font-size: 48px;
+  color: #0F00FF;
+}
+.case_text_rose{
+  font-size: 48px;
+  color: #F70A8F;
+}
+.case_center_emoji{
+  font-size: 96px;
+  color: #0F00FF;
+}
+.white_emoji{
+  font-size: 144px;
 }
    /* tr - строка
    td - столбец */
