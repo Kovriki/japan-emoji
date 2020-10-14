@@ -1,4 +1,4 @@
-* {
+*{
   display: block;
 }
 html {
@@ -24,7 +24,7 @@ body {
       background: url('../images/background.png');
       height: 18932px;
       display: block;
-      opacity: .3;
+      opacity: .2;
       }
 .div_rose {
   height: 1387px;
@@ -65,7 +65,19 @@ margin-left: 680px;
 
 color: #F70A8F;
 }
-.big_emoji_blue {
+.h2_blue{
+width: 954px;
+height: 84px;
+
+font-size: 48px;
+line-height: 60px;
+font-style: bold;
+margin-top: 155px;
+margin-left: 680px;
+
+color: #0F00FF;
+}
+.big_emoji_blue_1 {
 width: 1710px;
 height: 119px;
 left: -14px;
@@ -82,6 +94,17 @@ line-height: 181px;
 color: #0F00FF;
 
 transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.big_emoji_blue_2 {
+  width: 1440px;
+  height: 341px;
+
+  font-weight: 900;
+  font-size: 230px;
+  line-height: 164.6%;
+  margin-top: 250px;
+  /* or 412px */
+  color: #0F00FF;
 }
 .big_emoji_rose {
 width: 1440px;
@@ -231,6 +254,59 @@ line-height: 45px;
 
 color: #FFFFFF;
 }
+.emoji_in_table{
+  width: 403px;
+height: 121px;
+
+font-weight: 600;
+font-size: 96px;
+line-height: 121px;
+
+color: black
+
+/* color: #FFFFFF */
+}
+
+table {
+    display: table;
+    width: 100%; /* Ширина таблицы */
+    background: inherit; /* Цвет фона таблицы */
+    color: white; /* Цвет текста  работает*/
+    border-spacing: 3px; /* Расстояние между ячейками */
+    border-color: black;
+
+   }
+   td, tr {
+    background: inherit; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+
+
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 121px;
+
+  color: black
+
+   }
+td::before{
+  weight: 50%;
+
+} */
+
+th{
+  weight: 50%;
+}
+
+.little_emoji_rose{
+  font-size: 12px;
+  color: #F70A8F;
+}
+
+
+   /* tr - строка
+   td - столбец */
+
+
 /* section {
 display: flex;
 jistify-content: space-between;
