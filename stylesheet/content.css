@@ -1,11 +1,10 @@
-*{
-  display: block;
-}
+
 html {
   padding: 0;
   margin: 0;
 }
 body {
+        display: block;
         width: 1440px;
         height: 18932px;
         margin: 0 auto;
@@ -27,11 +26,13 @@ body {
       opacity: .2;
       }
 .div_rose {
+  display: block;
   height: 1387px;
   background-color: #F70A8F;
   margin-top: -750px;
 }
 .div_blue {
+  display: block;
   width: 1440px;
   height: 3070px;
   background-color: #0F00FF;
@@ -40,6 +41,7 @@ body {
 }
 
 h1 {
+display: block;
 width: 394px;
 /* height: 124px; */
 left: 110px;
@@ -54,6 +56,7 @@ color: #0F00FF;
 
 }
 .h2_rose{
+display: block;
 width: 954px;
 height: 84px;
 
@@ -66,6 +69,7 @@ margin-left: 680px;
 color: #F70A8F;
 }
 .h2_blue{
+display: block;
 width: 954px;
 height: 84px;
 
@@ -78,6 +82,7 @@ margin-left: 680px;
 color: #0F00FF;
 }
 .big_emoji_blue_1 {
+display: block;
 width: 1710px;
 height: 119px;
 left: -14px;
@@ -96,6 +101,7 @@ color: #0F00FF;
 transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .big_emoji_blue_2 {
+  display: block;
   width: 1440px;
   height: 341px;
 
@@ -107,6 +113,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   color: #0F00FF;
 }
 .big_emoji_rose {
+display: block;
 width: 1440px;
 height: 341px;
 font-style: normal;
@@ -118,6 +125,7 @@ margin-top: 250px;
 color: #F70A8F;
 }
 .big_emoji_white{
+display: block;
 font-size: 320px;
 text-align: center;
 
@@ -128,6 +136,7 @@ line-height: 164.6%;
 color: #FFFFFF;
 }
 .emoji_on_the_top {
+display: block;
 width: 359px;
 height: 120px;
 left: 238px;
@@ -142,7 +151,7 @@ color: #F70A8F;
 
 }
 .p_blue{
-
+display: block;
 width: 832px;
 height: 132px;
 
@@ -155,10 +164,11 @@ line-height: 30px;
 color: #0F00FF;
 }
 .p_white{
+display: block;
 width: 832px;
 height: 217px;
 
-margin-top: 226px;
+margin-top: 250px;
 margin-left: 245px;
 
 font-size: 24px;
@@ -167,6 +177,7 @@ line-height: 30px;
 color: #FFFFFF;
 }
 .p_rose{
+  display: block;
   width: 832px;
   height: 217px;
 
@@ -179,12 +190,14 @@ color: #FFFFFF;
   color: #F70A8F;
 }
 img{
+  display: block;
   margin-left: 170px;
   margin-top: -135px;
 }
 
 
 .background_rose{
+  display: block;
   width: 1440px;
   height: 1387px;
   left: 0px;
@@ -194,7 +207,8 @@ img{
   margin-top: -380px;
 }
 .background_blue {
-  width: 1440px;
+display: block;
+width: 1440px;
 height: 3070px;
 left: 0px;
 top: 5659px;
@@ -202,6 +216,7 @@ background: #0F00FF;
 }
 
 .emoji_white_144{
+display: block;
 width: 609px;
 height: auto;
 font-size: 165px;
@@ -209,6 +224,7 @@ font-size: 165px;
 color: #FFFFFF;
 }
 .emoji_blue_85{
+display: block;
 width: 1220px;
 height: 151px;
 
@@ -222,6 +238,7 @@ margin-left: 150px;
 color: #0F00FF;
 }
 .emoji_rose_96{
+display: block;
 width: auto;
 height: 121px;
 
@@ -232,6 +249,7 @@ line-height: 121px;
 color: #F70A8F;
 }
 .comments_blue{
+display: block;
 width: 609px;
 height: 71px;
 
@@ -247,6 +265,7 @@ color: #0F00FF;
 }
 
 .text_white{
+display: block;
 width: 996px;
 font-weight: 500;
 font-size: 36px;
@@ -255,7 +274,8 @@ line-height: 45px;
 color: #FFFFFF;
 }
 .emoji_in_table{
-  width: 403px;
+display: block;
+width: 403px;
 height: 121px;
 
 font-weight: 600;
@@ -268,12 +288,13 @@ color: black
 }
 
 table {
-    display: table;
+
     width: 100%; /* Ширина таблицы */
     background: inherit; /* Цвет фона таблицы */
     color: white; /* Цвет текста  работает*/
     border-spacing: 3px; /* Расстояние между ячейками */
     border-color: black;
+
 
    }
    td, tr {
