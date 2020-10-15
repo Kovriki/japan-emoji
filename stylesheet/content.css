@@ -37,8 +37,38 @@ body {
   height: 3070px;
   background-color: #0F00FF;
 
+  position: absolute;
+  top: 5659px;
+  left: 0;
+  right:0;
+
   margin-top: 710px;
 }
+.div_blue::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #0F00FF;
+}
+
+.layer1, .layer2{
+position: absolute;
+}
+.layer1::before{
+  top: 5659px;
+  left:0;
+  right: 0;
+
+}
+.layer2::before{
+  color: white;
+}
+
+.layer1{z-index: 1;}
+.layer2{z-index: 2;}
+
 
 h1 {
 display: block;
@@ -300,18 +330,26 @@ color: black
 }
 
 table {
-
-    width: 100%; /* Ширина таблицы */
-    background: inherit; /* Цвет фона таблицы */
-    color: white; /* Цвет текста  работает*/
-    border-spacing: 3px; /* Расстояние между ячейками */
+    position: absolute;
+    top: 6900px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #0F00FF;
+    /* background: green; */
+    color: white;
+    border-spacing: 3px;
+    align: left;
+    border-width: 300px;
     border-color: black;
 
 
    }
+
+
    td, tr {
-    background: inherit; /* Цвет фона ячеек */
-    padding: 5px; /* Поля вокруг текста */
+    background: inherit;
+    padding: 5px;
 
 
   font-weight: 600;
@@ -324,7 +362,7 @@ table {
 td::before{
   weight: 50%;
 
-} */
+}
 
 th{
   weight: 50%;
