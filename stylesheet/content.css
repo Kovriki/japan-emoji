@@ -25,11 +25,21 @@ body {
       display: block;
       opacity: .2;
       }
+p{
+  position: relative;
+}
 .div_rose {
   display: block;
+
+  position: absolute;
+  top: 1790px;
+  left: 0;
+  right: 0;
+  opacity: .8;
+
   height: 1387px;
   background-color: #F70A8F;
-  margin-top: -750px;
+  /* margin-top: -750px; */
 }
 .div_blue {
   display: block;
@@ -38,10 +48,10 @@ body {
   background-color: #0F00FF;
 
   position: absolute;
-  top: 5659px;
+  top: 4950px;
   left: 0;
   right:0;
-
+opacity: .8;
   margin-top: 710px;
 }
 .div_blue::before{
@@ -149,7 +159,25 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   /* or 412px */
   color: #0F00FF;
 }
-.big_emoji_rose {
+.big_emoji_rose_1 {
+
+
+display: block;
+width: 1440px;
+height: 341px;
+font-style: normal;
+font-weight: 900;
+font-size: 230px;
+line-height: 164.6%;
+margin-top: 250px;
+/* or 412px */
+color: #F70A8F;
+}
+
+.big_emoji_rose_2 {
+position: absolute;
+top: 5900px;
+
 display: block;
 width: 1440px;
 height: 341px;
@@ -192,7 +220,7 @@ display: block;
 width: 832px;
 height: 132px;
 
-margin-top: 226px;
+margin-top: 235px;
 margin-left: 245px;
 
 font-size: 24px;
@@ -201,6 +229,8 @@ line-height: 30px;
 color: #0F00FF;
 }
 .p_white{
+position:relative;
+
 display: block;
 width: 832px;
 height: 217px;
@@ -214,6 +244,7 @@ line-height: 30px;
 color: #FFFFFF;
 }
 .p_white_36px{
+  position: relative;
   font-size: 36px;
   color: #FFFFFF;
   text-align: center;
@@ -233,21 +264,25 @@ color: #FFFFFF;
 }
 img{
   display: block;
+  position:relative;
   margin-left: 170px;
   margin-top: -135px;
 }
 
 
-.background_rose{
+/* .background_rose{ */
   display: block;
+  position: absolute;
+  top: 250px;
+  /* opacity: .5; */
   width: 1440px;
   height: 1387px;
-  left: 0px;
-  top: 1793px;
+  margin-top: 300px;
   background: #F70A8F;
   color: white;
   margin-top: -380px;
 }
+
 .background_blue {
 display: block;
 width: 1440px;
@@ -335,7 +370,7 @@ table {
     left: 0;
     right: 0;
     width: 100%;
-    background: #0F00FF;
+    background: #0F00FF .8;
     /* background: green; */
     color: white;
     border-spacing: 3px;
@@ -351,13 +386,15 @@ table {
     background: inherit;
     padding: 5px;
 
-
+  border: 1px solid black;
+  border-style: solid;
+  border-color: white;
   font-weight: 600;
   font-size: 96px;
   line-height: 121px;
 
-  color: black
-
+  color: white;
+  text-align: center;
    }
 td::before{
   weight: 50%;
