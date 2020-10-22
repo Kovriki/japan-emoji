@@ -51,7 +51,7 @@ p{
   top: 4950px;
   left: 0;
   right:0;
-opacity: .8;
+opacity: .6;
   margin-top: 710px;
 }
 .div_blue::before{
@@ -95,19 +95,32 @@ margin-left: 130px;
 color: #0F00FF;
 
 }
-.h2_rose{
+.h2_rose_1{
 display: block;
-width: 954px;
-height: 84px;
-
 font-size: 48px;
-line-height: 60px;
 font-style: bold;
-margin-top: 155px;
+margin-top: 165px;
 margin-left: 680px;
-
 color: #F70A8F;
 }
+
+.h2_rose_2 {
+  display: block;
+  font-size: 48px;
+margin-top: 250px;
+margin-left: 725px;
+color: #F70A8F;
+}
+
+.h2_rose_3{
+  display: block;
+  font-size: 48px;
+margin-top: 325px;
+margin-left: 730px;
+color: #F70A8F;
+}
+
+
 .h2_blue{
 display: block;
 width: 954px;
@@ -116,8 +129,8 @@ height: 84px;
 font-size: 48px;
 line-height: 60px;
 font-style: bold;
-margin-top: 155px;
-margin-left: 680px;
+margin-top: 1925px;
+margin-left: 670px;
 
 color: #0F00FF;
 }
@@ -129,20 +142,25 @@ color: #0F00FF;
   color: #FFFFFF;
 }
 .big_emoji_blue_1 {
-display: block;
-width: 1440px;
-height: 119px;
-margin-top: 306px;
-margin-left: 70px;
+position: relative;
+width: 1900px;
+height: 362px;
+left: -230px;
 
-text-align: center;
-font-style: normal;
+
+margin-top: 230px;
+
 font-weight: 600;
 font-size: 288px;
-line-height: 181px;
+line-height: 362px;
+color: #0F00FF;
+}
 
-overflow: auto;
-
+.big_emoji_blue_2 {
+text-align: center;
+font-style: normal;
+font-size: 300px;
+margin-top: 110px;
 color: #0F00FF;
 }
 
@@ -152,21 +170,8 @@ color: #0F00FF;
   height: 150px;
   height: auto;
 }
-.big_emoji_blue_2 {
-  display: block;
-  width: 1440px;
-  height: 341px;
 
-  font-weight: 900;
-  font-size: 230px;
-  line-height: 164.6%;
-  margin-top: 250px;
-  /* or 412px */
-  color: #0F00FF;
-}
 .big_emoji_rose_1 {
-
-
 display: block;
 width: 1440px;
 height: 341px;
@@ -180,43 +185,63 @@ color: #F70A8F;
 }
 
 .big_emoji_rose_2 {
-position: absolute;
-top: 5900px;
+/* position: absolute;
+top: 5900px; */
 
 display: block;
-width: 1440px;
-height: 341px;
 font-style: normal;
-font-weight: 900;
-font-size: 230px;
+font-size: 250px;
 line-height: 164.6%;
-margin-top: 250px;
+margin-top: 80px;
 /* or 412px */
 color: #F70A8F;
+
 }
 .big_emoji_white{
 display: block;
 font-size: 320px;
 text-align: center;
 
-margin-top: -520px;
+margin-top: 180px;
 
 
 line-height: 164.6%;
 color: #FFFFFF;
 }
-.emoji_on_the_top {
+.emoji_on_the_top_1 {
 display: block;
-width: 359px;
-height: 120px;
-left: 238px;
-top: 745px;
-margin-top: 230px;
-margin-left: 245px;
+position: absolute;
+left: 852px;
+top: 218px;
+font-size: 64px;
+color: #F70A8F;
+}
+.emoji_on_the_top_2 {
+display: block;
+position: absolute;
+left: 242px;
+top: 733px;
 font-style: normal;
-font-weight: 500;
-font-size: 76px;
-line-height: 80px;
+font-size: 64px;
+color: #F70A8F;
+}
+.emoji_on_the_top_3 {
+display: block;
+position: absolute;
+left: 1052px;
+top: 686px;
+font-style: normal;
+font-size: 64px;
+color: #F70A8F;
+
+}
+.emoji_on_the_top_4 {
+display: block;
+position: absolute;
+left: 608px;
+top: 793px;
+font-style: normal;
+font-size: 64px;
 color: #F70A8F;
 
 }
@@ -225,7 +250,7 @@ display: block;
 width: 832px;
 height: 132px;
 
-margin-top: 235px;
+margin-top: 415px;
 margin-left: 245px;
 
 font-size: 24px;
@@ -259,7 +284,7 @@ color: #FFFFFF;
   width: 832px;
   height: 217px;
 
-  margin-top: 120px;
+  margin-top: -50px;
   margin-left: 240px;
 
   font-size: 24px;
@@ -273,7 +298,12 @@ img{
   margin-left: 170px;
   margin-top: -135px;
 }
-
+.img_arrow_rose{
+  display: block;
+  position:relative;
+  margin-left: 170px;
+  margin-top: 150px;
+}
 
 /* .background_rose{ */
   display: block;
@@ -297,14 +327,28 @@ top: 5659px;
 background: #0F00FF;
 }
 
-.emoji_white_144{
+.emoji_white_144_1{
 display: block;
 width: 609px;
+margin-left: 230px;
+margin-top: 140px;
+margin-right: 0;
 height: auto;
-font-size: 165px;
+font-size: 155px;
 
 color: #FFFFFF;
 }
+.emoji_white_144_2{
+display: block;
+width: 609px;
+margin-left: 610px;
+margin-top: -200px;
+height: auto;
+font-size: 155px;
+
+color: #FFFFFF;
+}
+
 .emoji_blue_85{
 display: block;
 width: 1220px;
@@ -320,40 +364,48 @@ margin-left: 150px;
 color: #0F00FF;
 }
 .emoji_rose_96{
-display: block;
-width: auto;
-height: 121px;
-
-font-weight: 600;
+/* display: block;
 font-size: 96px;
-line-height: 121px;
-
-color: #F70A8F;
+line-height: 400px;
+margin-top: -30px;
+color: #F70A8F; */
+display: block;
+    font-size: 96px;
+    line-height: 320px;
+    margin-top: 10px;
+    color: #F70A8F;
 }
 .comments_blue{
-display: block;
-width: 609px;
-height: 71px;
-
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-text-align: right;
-
-margin-right: 245px;
-
-color: #0F00FF;
+  display: block;
+  width: 609px;
+  height: 71px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: right;
+  margin-right: 45px;
+  margin-left: 600px;
+  color: #0F00FF;
 
 }
 
-.text_white{
-display: block;
-width: 996px;
-font-weight: 500;
-font-size: 36px;
-line-height: 45px;
-
-color: #FFFFFF;
+.text_white_1{
+  display: block;
+  width: 996px;
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 270px;
+  margin-left: 235px;
+  color: #FFFFFF;
+}
+.text_white_2{
+  display: block;
+  width: 996px;
+  font-size: 36px;
+  margin-top:180px;
+  margin-left: 235px;
+  margin-bottom: 200px;
+  color: #FFFFFF;
 }
 .emoji_in_table{
 display: block;
@@ -371,15 +423,17 @@ color: black
 
 table {
     position: absolute;
+
     top: 6900px;
     left: 0;
     right: 0;
-    width: 100%;
+    margin-top: 430px;
+    width: 1440px;
     background: #0F00FF .8;
     /* background: green; */
     color: white;
     border-spacing: 3px;
-    align: left;
+    align-content: space-between;
     border-width: 300px;
     border-color: black;
 
@@ -389,7 +443,9 @@ table {
 
    td, tr {
     background: inherit;
-    padding: 5px;
+width: 512px;
+padding: 115px;
+margin-left: 50px;
 
   border: 1px solid black;
   border-style: solid;
@@ -402,12 +458,12 @@ table {
   text-align: center;
    }
 td::before{
-  weight: 50%;
+  width: 512px;
 
 }
 
 th{
-  weight: 50%;
+  width: 720px;
 }
 
 .little_emoji_rose{
