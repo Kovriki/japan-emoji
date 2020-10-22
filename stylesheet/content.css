@@ -130,22 +130,27 @@ color: #0F00FF;
 }
 .big_emoji_blue_1 {
 display: block;
-width: 1710px;
+width: 1440px;
 height: 119px;
-left: -14px;
-top: 519px;
 margin-top: 306px;
 margin-left: 70px;
 
-
+text-align: center;
 font-style: normal;
 font-weight: 600;
-font-size: 144px;
+font-size: 288px;
 line-height: 181px;
 
-color: #0F00FF;
+overflow: auto;
 
-transform: matrix(1, 0, 0, -1, 0, 0);
+color: #0F00FF;
+}
+
+.emoji_layer{
+  overflow: hidden;
+  width: 1440px;
+  height: 150px;
+  height: auto;
 }
 .big_emoji_blue_2 {
   display: block;
