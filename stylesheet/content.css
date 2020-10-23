@@ -52,7 +52,7 @@ p{
   left: 0;
   right:0;
 /* opacity: .6; */
-  margin-top: 710px;
+  margin-top: 708px;
 }
 .div_blue::before{
   content: "";
@@ -84,8 +84,7 @@ h1 {
 display: block;
 width: 394px;
 /* height: 124px; */
-left: 110px;
-top: 138px;
+
 position: relative;
 font-style: normal;
 font-weight: 600;
@@ -98,7 +97,7 @@ color: #0F00FF;
 .h2_rose_1{
 display: block;
 font-size: 48px;
-font-style: bold;
+font-style: normal;
 margin-top: 165px;
 margin-left: 680px;
 color: #F70A8F;
@@ -168,13 +167,9 @@ position: relative;
 width: 1900px;
 height: 362px;
 left: -230px;
-
-
 margin-top: 230px;
-
 font-weight: 600;
 font-size: 288px;
-line-height: 362px;
 color: #0F00FF;
 }
 
@@ -565,11 +560,46 @@ th{
 } */
 .case_center_emoji{
   font-size: 96px;
+  width: 600px;
   margin-top: 200px;
   text-align: center;
-  color: #0F00FF;}
+  margin-left: 425px;
+  color: #0F00FF;
+  animation-name: trashh;
+  /* animation-duration: 4s;
+  animation-delay: 1s; */
 
+  animation-duration: .001s;
+	/* animation-delay: 1s; */
+	/* animation-timing-function: ease-in-out; */
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-direction: alternate;
 
+}
+
+@keyframes trashh {
+  0%{
+    transform: rotateX(0deg);
+  }
+  25%{
+    transform: rotate(5deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  75%{
+    transform: rotate(-5deg)
+  }
+  100%{
+    transform: rotate(0deg)
+  }
+}
+
+.case_center_emoji:hover, .case_center_emoji_in_rose_1:hover, .case_center_emoji_in_rose:hover{
+  animation-play-state: paused;
+  transition: .8s;
+}
 
 .sqtx_blue_left_v, .sqtx_blue_right_v, .sqtx_blue_left_n, .sqtx_blue_right_n {
   font-size: 48px;
@@ -607,7 +637,14 @@ margin-left: 120px;
   font-size: 96px;
   margin-top: -80px;
   text-align: center;
-  color: #0F00FF;}
+  color: #0F00FF;
+  animation-name: trashh;
+  animation-duration: .001s;
+  animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-direction: alternate;
+
+}
 
 .sqtx_rose_center_v, .sqtx_rose_left,  .sqtx_rose_right, .sqtx_rose_center_n {
   font-size: 48px;
@@ -646,6 +683,11 @@ text-align: center;
   margin-top: -80px;
   text-align: center;
   color: #0F00FF;
+  animation-name: trashh;
+  animation-duration: .001s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: alternate;
 }
 
 .sqtx_rose_center_v_1{
@@ -770,7 +812,7 @@ text-align: center;
 .authorr {
   font-size: 24px;
   margin-left: 1100px;
-  margin-top: 10px;
+  margin-top: 30px;
   color: white;
 }
    /* tr - строка
