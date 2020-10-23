@@ -84,7 +84,8 @@ h1 {
 display: block;
 width: 394px;
 /* height: 124px; */
-
+left: 110px;
+top: 138px;
 position: relative;
 font-style: normal;
 font-weight: 600;
@@ -97,7 +98,7 @@ color: #0F00FF;
 .h2_rose_1{
 display: block;
 font-size: 48px;
-font-style: normal;
+font-style: bold;
 margin-top: 165px;
 margin-left: 680px;
 color: #F70A8F;
@@ -167,9 +168,13 @@ position: relative;
 width: 1900px;
 height: 362px;
 left: -230px;
+
+
 margin-top: 230px;
+
 font-weight: 600;
 font-size: 288px;
+line-height: 362px;
 color: #0F00FF;
 }
 
@@ -812,7 +817,7 @@ text-align: center;
 .authorr {
   font-size: 24px;
   margin-left: 1100px;
-  margin-top: 30px;
+  margin-top: 15px;
   color: white;
 }
    /* tr - строка
