@@ -6,7 +6,7 @@ html {
 body {
         display: block;
         width: 1440px;
-        height: 18932px;
+        height: 18830px;
         margin: 0 auto;
         background: white;
         font-family: Source Code Pro;
@@ -20,10 +20,10 @@ body {
       left:0;
       top: 0;
       right: 0;
-      background: url('../images/background.png');
-      height: 18932px;
+      /* background: url('../images/background.png'); */
+      /* height: 18932px;
       display: block;
-      opacity: .2;
+      opacity: .2; */
       }
 p{
   position: relative;
