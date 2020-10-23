@@ -35,7 +35,7 @@ p{
   top: 1790px;
   left: 0;
   right: 0;
-  opacity: .8;
+  /* opacity: .8; */
 
   height: 1387px;
   background-color: #F70A8F;
@@ -51,7 +51,7 @@ p{
   top: 4950px;
   left: 0;
   right:0;
-opacity: .6;
+/* opacity: .6; */
   margin-top: 710px;
 }
 .div_blue::before{
@@ -121,7 +121,7 @@ color: #F70A8F;
 }
 
 
-.h2_blue{
+.h2_blue_1{
 display: block;
 width: 954px;
 height: 84px;
@@ -132,6 +132,28 @@ font-style: bold;
 margin-top: 1925px;
 margin-left: 670px;
 
+color: #0F00FF;
+}
+.h2_blue_2_1{
+display: block;
+
+font-size: 48px;
+line-height: 60px;
+font-style: bold;
+margin-top: 300px;
+margin-left: 730px;
+margin-bottom: 100px;
+color: #0F00FF;
+}
+.h2_blue_2_2{
+display: block;
+
+font-size: 48px;
+line-height: 60px;
+font-style: bold;
+margin-top: 200px;
+margin-left: 730px;
+margin-bottom: 100px;
 color: #0F00FF;
 }
 .h2_white{
@@ -161,6 +183,7 @@ text-align: center;
 font-style: normal;
 font-size: 300px;
 margin-top: 110px;
+margin-bottom: 100px;
 color: #0F00FF;
 }
 
@@ -175,6 +198,7 @@ color: #0F00FF;
 display: block;
 width: 1440px;
 height: 341px;
+text-align: center;
 font-style: normal;
 font-weight: 900;
 font-size: 230px;
@@ -189,6 +213,7 @@ color: #F70A8F;
 top: 5900px; */
 
 display: block;
+text-align: center;
 font-style: normal;
 font-size: 250px;
 line-height: 164.6%;
@@ -373,6 +398,7 @@ display: block;
     font-size: 96px;
     line-height: 320px;
     margin-top: 10px;
+    margin-left: 120px;
     color: #F70A8F;
 }
 .comments_blue{
@@ -466,16 +492,39 @@ th{
   width: 720px;
 }
 
-.little_emoji_rose{
-  font-size: 12px;
+.little_emoji_rose_1, .little_emoji_rose_2, .little_emoji_rose_3, .little_emoji_rose_4, .little_emoji_rose_5, .little_emoji_rose_6{
+  font-size: 78px;
   color: #F70A8F;
-  padding: 20px;
-
+  padding: 100px 120px 100px 120px;
+  transition: all 4s ease-in-out;
 }
 
-.little_emoji_rose:hover{
-  transform: scale(5);
-  transition-duration: .5s;
+.little_emoji_rose_1{
+  margin: 50px 650px 5px 200px;
+}
+
+.little_emoji_rose_2{
+  margin: -180px 50px 10px 760px;
+}
+
+.little_emoji_rose_3{
+  margin: -180px 770px 10px 20px;
+}
+
+.little_emoji_rose_4{
+  margin: -180px 180px 10px 450px;
+}
+
+.little_emoji_rose_5{
+  margin: -110px 600px 10px 100px;
+}
+.little_emoji_rose_6{
+  margin: -190px 180px 0 500px;
+}
+
+.little_emoji_rose_1:hover, .little_emoji_rose_2:hover, .little_emoji_rose_3:hover, .little_emoji_rose_4:hover, .little_emoji_rose_5:hover, .little_emoji_rose_6:hover {
+  transform: scale(.1);
+  transition-duration: .4s;
 }
 
 .red{
@@ -498,22 +547,145 @@ th{
 
   }
 }
-
+/*
 .case_text_blue{
   font-size: 48px;
   color: #0F00FF;
+} */
+/* .case_text_rose{
+  font-size: 48px;
+  color: #F70A8F;
+} */
+.case_center_emoji{
+  font-size: 96px;
+  margin-top: 200px;
+  text-align: center;
+  color: #0F00FF;}
+
+
+
+.sqtx_blue_left_v, .sqtx_blue_right_v, .sqtx_blue_left_n, .sqtx_blue_right_n {
+  font-size: 48px;
+  color: #0F00FF;
+
 }
-.case_text_rose{
+
+.sqtx_blue_left_v {
+margin-top: 170px;
+margin-left: 120px;
+}
+
+.sqtx_blue_right_v{
+  margin-top: -45px;
+  margin-right: 120px;
+  margin-left: 500px;
+  text-align: right;
+}
+
+.sqtx_blue_left_n {
+  font-size: 48px;
+  color: #0F00FF;
+  margin-top: 200px;
+  margin-left: 120px;
+}
+.sqtx_blue_right_n {
+  margin-top: -50px;
+  margin-right: 120px;
+  margin-left: 900px;
+  text-align: right;
+}
+
+
+.case_center_emoji_in_rose{
+  font-size: 96px;
+  margin-top: -80px;
+  text-align: center;
+  color: #0F00FF;}
+
+.sqtx_rose_center_v, .sqtx_rose_left,  .sqtx_rose_right, .sqtx_rose_center_n {
   font-size: 48px;
   color: #F70A8F;
 }
-.case_center_emoji{
+.sqtx_rose_center_v{
+text-align: center;
+margin-top: 265px;
+}
+
+.sqtx_rose_left{
+margin-top: 235px;
+margin-left: 120px;
+}
+
+.sqtx_rose_right{
+margin-top: -66px;
+margin-left: 1210px;
+
+}
+
+.sqtx_rose_center_n{
+margin-top: 230px;
+text-align: center;
+}
+
+
+/*  */
+
+.sqtx_rose_center_v_1, .sqtx_rose_left_1,  .sqtx_rose_right_1, .sqtx_rose_center_n_1 {
+  font-size: 48px;
+  color: #F70A8F;
+}
+.case_center_emoji_in_rose_1{
   font-size: 96px;
+  margin-top: -80px;
+  text-align: center;
   color: #0F00FF;
 }
+
+.sqtx_rose_center_v_1{
+text-align: center;
+margin-top: 225px;
+}
+
+.sqtx_rose_left_1{
+margin-top: 225px;
+margin-left: 120px;
+}
+
+.sqtx_rose_right_1{
+margin-top: -70px;
+margin-left: 977px;
+margin-right: 50px;
+
+}
+
+.sqtx_rose_center_n_1{
+margin-top: 230px;
+text-align: center;
+}
+
+/*  */
+
 .white_emoji{
   font-size: 144px;
+  color: white;
+  text-align: center;
 }
+
+.space {
+  width: 1440px;
+  height: 60px;
+}
+
+.div_blue_1 {
+width: 1440px;
+height: 3415px;
+
+margin-top: 240px;
+opacity: .8;
+background: #0F00FF;
+}
+
+
    /* tr - строка
    td - столбец */
 
