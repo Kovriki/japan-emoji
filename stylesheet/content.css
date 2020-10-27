@@ -10,9 +10,8 @@ body {
         margin: 0 auto;
         background: white;
         font-family: "Source Code Pro", monospace;
-        /* font-family: 'Source Code Pro',monospace; */
-        display:block;
-       position: relative;
+        font-weight: 300;
+        position: relative;
       }
 
       body::before{
